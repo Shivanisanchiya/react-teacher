@@ -1,0 +1,6 @@
+.teacher_details {
+  display: flex;
+  padding: 2vw;
+  justify-content: center;
+  place-content: center;
+}

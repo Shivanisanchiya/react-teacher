@@ -1,0 +1,23 @@
+nav {
+  width: 100vw;
+  height: 5rem;
+  display: grid;
+  background-color: #8300b3;
+  place-items: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
+  transition: var(--transition);
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.nav_menu {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.5vw;
+}
